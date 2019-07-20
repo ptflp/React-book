@@ -2,7 +2,7 @@ class HelloWorld extends React.Component {
   render() {
     return React.createElement(
       'h1',
-      null,
+      this.props,
       'Hello ' + this.props.frameworkName + ' world!'
     )
   }
@@ -15,7 +15,7 @@ ReactDOM.render(
     React.createElement(HelloWorld, {
       id: 'ember',
       frameworkName: 'Ember.js',
-      ftitle: 'A framework for creating ambitious web applications.'}),
+      title: 'A framework for creating ambitious web applications.'}),
     React.createElement(HelloWorld, {
       id: 'backbone',
       frameworkName: 'Backbone.js',
