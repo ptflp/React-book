@@ -1,6 +1,12 @@
 class HelloWorld extends React.Component {
   render() {
-    return <h1 {...this.props}>Hello {this.props.frameworkName} world!!!</h1>
+    return (
+	    <div>
+	    	<h1 {...this.props}>Hello {this.props.frameworkName} world!!!</h1>
+		    <h1> TEst </h1>
+		    <p> lol </p>
+	    </div>
+    )
   }
 }
 
