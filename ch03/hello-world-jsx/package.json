@@ -1,0 +1,18 @@
+{
+  "name": "hello-world-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel jsx/script.jsx -o js/script.js",
+    "watch": "./node_modules/.bin/babel jsx/script.jsx -o js/script.js -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
