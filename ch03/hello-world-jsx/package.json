@@ -7,6 +7,9 @@
     "babel-cli": "^6.9.0",
     "babel-preset-react": "^6.24.1"
   },
+  "babel": {
+    "presets": ["react"]
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
